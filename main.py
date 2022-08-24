@@ -13,7 +13,7 @@ action = ActionChains(driver)
 email = input("Enter mail:")
 name = input("Enter name:")
         
-       
+time.sleep(50)      
 pas = ''
 for x in range(16):
     pas = pas + random.choice(list('1234567890abcdefghigklmnopqrstuvyxwzABCDEFGHIGKLMNOPQRSTUVYXWZ'))
